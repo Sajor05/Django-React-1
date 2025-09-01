@@ -1,0 +1,9 @@
+li {
+  list-style: none;
+}
+
+.lista-de-frutas {
+  padding: 45px;
+  text-align: center;
+  display: inline;
+}

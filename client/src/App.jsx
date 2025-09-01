@@ -1,11 +1,6 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { TasksPage } from "./pages/TasksPages";
-import { TasksFormPage } from "./pages/TasksFormPages";
-import { Navigation } from "./components/Navigation";
 import { Header } from "./components/Header/Header";
-import { Footer } from "./components/Footer";
+import { Footer } from "./components/Footer/Footer";
 import { Section } from "./components/Section/Section";
-
 /*
 Con la libreria rect-router-dom tenemos funciones que nos permiten generar path´s para acceder a otros componentes
 
