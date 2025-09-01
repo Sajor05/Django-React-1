@@ -4,9 +4,9 @@ export function Section() {
   return (
     <>
       <ul>
-        {frutas.map((fruta) => {
-          return <li>{fruta}</li>;
-        })}
+        {frutas.map((fruta) => (
+          <li>{fruta}</li>
+        ))}
       </ul>
     </>
   );
