@@ -1,0 +1,10 @@
+.Header {
+  display: flex;
+  padding: 10px;
+  background-color: gold;
+  gap: 20px;
+}
+
+.Header-title {
+  justify-content: flex-end;
+}
