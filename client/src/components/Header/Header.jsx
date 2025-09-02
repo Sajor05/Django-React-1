@@ -1,4 +1,5 @@
 import "./Header.css";
+import logo from "../../assets/logo.svg";
 
 export function Header() {
   return (
@@ -7,7 +8,7 @@ export function Header() {
         <nav className="navbar navbar-expand-lg bg-body-tertiary p-1">
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
-              <img src="../../assets/logo.svg" alt="" />
+              <img src={logo} alt="" />
             </a>
             <button
               className="navbar-toggler"
