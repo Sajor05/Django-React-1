@@ -11,13 +11,7 @@ const users = [
 export function Section() {
   return (
     <>
-      <div className="lista-de-frutas">
-        <ul>
-          {frutas.map((fruta) => (
-            <li>{fruta}</li>
-          ))}
-        </ul>
-      </div>
+      <div className=""></div>
     </>
   );
 }

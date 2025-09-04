@@ -3,6 +3,9 @@ import "./Footer.css";
 export function Footer() {
   return (
     <>
+      <div className="bg-gray-100">
+        <h1>holaaa</h1>
+      </div>
       <footer className="mt-5">
         <div className="container-fluid">
           <div className="container text-center">
