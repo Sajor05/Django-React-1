@@ -7,10 +7,11 @@ function App() {
   return (
     <>
       <Header></Header>
-      <main>
-        <Sabores_Actuales></Sabores_Actuales>
-        <Postulacion></Postulacion>
-        <h1>Hola mundo</h1>
+      <main className="px-5">
+        <div className="px-5">
+          <Sabores_Actuales></Sabores_Actuales>
+          <Postulacion></Postulacion>
+        </div>
       </main>
       <footer>
         <Footer></Footer>

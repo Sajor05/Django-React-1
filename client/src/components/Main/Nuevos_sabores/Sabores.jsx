@@ -1,19 +1,20 @@
 import "./Nuevos_sabores.css";
+import Sabores from "../../../assets/Home/nuevos_sabores.jpg";
 
 export function Sabores_Actuales() {
   return (
     <>
-      <section class="contenedor-1 text-center">
-        <div class="row">
-          <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
-            image
+      <section className="text-center">
+        <div className="grid grid-cols-1 md:grid-cols-2">
+          <div className="flex justify-center items-center">
+            <img src={Sabores} alt="Nuevos sabores" className="shadow-lg" />
           </div>
-          <div class="col p-5 mt-5">
-            <h1 class="fw-bold">
+          <div className="col p-5 mt-5">
+            <h1 className="fw-bold">
               EXPERIMENTA EL <br /> SABOR
             </h1>
             <br />
-            <h3 class="fw-bold fst-italic">DE UN NUEVO CLÁSICO</h3>
+            <h3 className="fw-bold fst-italic">DE UN NUEVO CLÁSICO</h3>
           </div>
         </div>
       </section>
