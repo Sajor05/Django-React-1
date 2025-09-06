@@ -5,7 +5,7 @@ export function Postulacion() {
   return (
     <>
       <section className="postulate mt-5 text-center">
-        <div className="row">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center">
           <div className="col p-5 mt-5">
             <h2 className="fw-bold">
               Unite a algo más <br /> grande
@@ -19,8 +19,12 @@ export function Postulacion() {
               </a>
             </div>
           </div>
-          <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
-            <img src={Trabaja_con_nosotros} alt="Trabaja con nosotros" />
+          <div className="flex justify-center">
+            <img
+              src={Trabaja_con_nosotros}
+              alt="Trabaja con nosotros"
+              className="2-3/4 md:w-full"
+            />
           </div>
         </div>
       </section>

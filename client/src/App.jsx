@@ -5,7 +5,7 @@ import { Footer } from "./components/Footer/Footer";
 
 function App() {
   return (
-    <>
+    <div>
       <Header></Header>
       <main className="px-5">
         <div className="px-5">
@@ -16,7 +16,7 @@ function App() {
       <footer>
         <Footer></Footer>
       </footer>
-    </>
+    </div>
   );
 }
 
